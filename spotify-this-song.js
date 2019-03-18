@@ -5,7 +5,7 @@ var spotify = new Spotify(keys.spotify);
 
 module.exports = function(song){
     spotify.search({ type: 'track', query: song }, function(data) {
-       
+      console.log(song)
       console.log(data); 
       });
 };

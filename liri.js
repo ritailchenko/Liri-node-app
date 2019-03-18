@@ -1,22 +1,26 @@
 require("dotenv").config();
 
+var command = process.argv[2];
+var value = process.argv[3];
 
-const result = dotenv.config()
+var result = [];
 
-var concert = require("./concert-this.js");
-var whatItSays = require("./do-what-it-says.js");
+//var concert = require("./concert-this.js");
+//var whatItSays = require("./do-what-it-says.js");
 var spotify = require("./spotify-this-song.js");
 var movie = require("./movie-this.js");
+
+
  
 if (command === "concert-this") {
-    do these;
+    // result = concert(value);
 } else if (command === "spotify-this-song") {
-    do these;
+    result = spotify(value);
 } else if (command === "movie-this") {
-    do these;
+    result = movie(value);
 } else if (command === "do-what-it-says") {
-    do these;
+    //result = whatItSays(value);
 } else {
-
+   result = ["invalid input"];
 }
  
