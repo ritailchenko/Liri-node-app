@@ -12,7 +12,10 @@ module.exports = function(song){
       console.log(JSON.stringify(data.tracks.items[1].href));
       console.log(JSON.stringify(data.tracks.items[0].album.name));
       resolve(result);
+<<<<<<< HEAD
       console.log("\n--------------\n");
+=======
+>>>>>>> 4a6c3c0fa1f7559ed6bde9975e3fb0ed3edbcb54
     });
   })   
 };

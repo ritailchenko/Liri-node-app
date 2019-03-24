@@ -4,6 +4,7 @@ OK, Oklahoma City
 2019-03-24T19:00:00
 P!NK: BEAUTIFUL TRAUMA WORLD TOUR
 OK, Oklahoma City
+<<<<<<< HEAD
 03/24/2019
 P!NK: BEAUTIFUL TRAUMA WORLD TOUR
 OK, Oklahoma City
@@ -117,3 +118,6 @@ Conuntry: USA
 The movie rating is: 8.1
 The movie rotten tomato's rating: 97%
 The movie year of release: 2015
+=======
+03/24/2019
+>>>>>>> 4a6c3c0fa1f7559ed6bde9975e3fb0ed3edbcb54

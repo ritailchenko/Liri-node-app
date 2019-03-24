@@ -12,10 +12,15 @@ module.exports = function(movie){
       result.push("Conuntry: " + response.data.Country);
       result.push("Plot: " + response.data.Plot);
       result.push("Actors: " + response.data.Actors);
+<<<<<<< HEAD
       result.push("Language: " + response.data.Language);
       result.push("The movie rotten tomato's rating: " + response.data.Ratings[1].Value);
       return result;  
       console.log("\n--------------\n");
+=======
+      result.push("The movie rotten tomato's rating: " + response.data.Ratings[1].Value);
+      return result;  
+>>>>>>> 4a6c3c0fa1f7559ed6bde9975e3fb0ed3edbcb54
     }
   );
 };
