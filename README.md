@@ -48,7 +48,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 
-##BONUS
+## BONUS
 
 The file log.txt will output a data from each command that was ran
 
